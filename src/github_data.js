@@ -4406,4 +4406,9 @@ const githubData = [
       }
     }
   ]
+
+  // githubData[6] represents the sixth object in the code//
+  // **Hint: to count ojbects and arrays in code highlight the first bracket of the element and scroll down to find where it's closing tag is//
+  // "".payload.commits" is targeting portions of the the 6th object? commits[0] is targeting the zeroth thing in the array//
+  // "message" targets the message portion of that array?//
   console.log(githubData[6].payload.commits[0].message)
